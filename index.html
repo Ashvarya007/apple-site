@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+  <nav class="navbar navbar-expand-lg d-flex justify-content-center">
+    <div class="container d-flex">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://www.apple.com/">
+                    <img src="./assets/apple-icon-small.webp" class="apple-icon-small" alt="Apple Icon">
+                </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Mac</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">iPad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">iPhone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Watch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Airpods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">TV & Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://www.apple.com/shop/bag">
+              <img src="./assets/apple-search-icon-small.webp" class="apple-icon-small" alt="Search Icon">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://www.apple.com/shop/bag">
+              <img src="./assets/shopping-cart-apple-small.webp" class="apple-icon-small" alt="Shopping Cart Icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- <ul class="nav justify-content-center navbar">
+          <li class="nav-item">
+        <a class="nav-link text-light" href="https://www.apple.com/"><img src="./assets/apple-icon-small.webp" class="apple-icon-small"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Store</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Mac</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">iPad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">iPhone</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Watch</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Vision</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Airpods</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">TV & Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Entertainment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Accessories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Support</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="https://www.apple.com/shop/bag"><img src="./assets/apple-search-icon-small.webp" class="apple-icon-small"></a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link text-light" href="https://www.apple.com/shop/bag"><img src="./assets/shopping-cart-apple-small.webp" class="apple-icon-small"></a>
+      </li>
+    </ul> -->
+    <!-- intro section -->
+    <section class="intro">
+      <span class="apple-home-logo">
+        <img src="./assets/homepage-apple-image.png" />
+      </span>
+      <h1 class="intro-title">There's still time<br />to work wonders</h1>
+      <h4 class="intro-description">
+        Finish off your list with great last-minute gifts
+      </h4>
+      <a href="https://www.apple.com/store"
+        >Shop <i class="bi bi-caret-right"></i
+      ></a>
+    </section>
+
+    <!-- section 2 - iphone -->
+    <section class="iphone-section">
+      <h2 class="iphone-title">iPhone 15 Pro</h1>
+      <h3 class="iphone-intro">Titanium. So Strong. So light. So Pro.</h2>
+      <span class="iphone-links"><a href="#">Learn more ></a><a href="#">Buy ></a></span>
+    </section>
+
+
+    <!-- section 3 apple watch -->
+    <section class="apple-watch-section">
+        <video autoPlay loop muted id="apple-video">
+            <source src="./assets/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+        </video>
+            <!-- Overlay -->
+    <div class="overlay"></div>
+        <!-- content -->
+        <div class="content">
+            <h2 class="watch-intro"><span><img src="./assets/apple-icon-small.webp" class="apple-icon-watch"></span>WATCH<br>SERIES 9</h2>
+            <h3 class="watch-content">Double tap. A magical new way to use Apple Watch.</h3>
+            <span><button class="apple-watch-btns">Learn more</button><button class="apple-watch-btns">Buy</button></span>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="apple-products">
+        <!-- product 1 -->
+        <div class="iphone">
+            <div class="apple-prod-content">
+            <h4 class="headline">iPhone 15</h4>
+            <h5 class="subhead" role="presentation">New camera. New design. Newphoria.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/iphone-img-light.jpg" class="product-images">
+            </div>
+        </div>
+        <!-- product 2 -->
+         <div class="macbook">
+            <div class="apple-prod-content">
+            <h4 class="headline">Macbook Pro</h4>
+            <h5 class="subhead" role="presentation">Mind-blowing. Head-turning.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/macbook-img.jpg" class="product-images">
+            </div>
+        </div>
+
+        <!-- product 3 -->
+         <div class="apple-watch">
+            <div class="apple-prod-content">
+            <h4 class="headline">WATCH</h4>
+            <span class="text-warning" id="subheading">ULTRA 2</span>
+            <h5 class="subhead" role="presentation">Next level adventure.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/apple-watch-img.jpg" class="product-images">
+            </div>
+        </div>
+
+        <!-- product 4 -->
+         <div class="airpods">
+            <div class="apple-prod-content" id="airpods">
+            <h4 class="headline">Airpods Pro</h4>
+            <h5 class="subhead" role="presentation">Adaptive audio. Now playing.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/airpods-img.jpg" class="product-images">
+            </div>
+            
+        </div>
+
+        <!-- product 5 -->
+         <div class="apple-card">
+            <div class="apple-prod-content">
+            <h4 class="headline">Card</h4>
+            <h5 class="subhead" role="presentation">Get up to 3% Daily Cash back<br> with every purchase.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/apple-card-img.jpg" class="product-images">
+            </div>
+            
+        </div>
+
+        <!-- product 6 -->
+         <div class="trade-in">
+            <div class="apple-prod-content">
+            <h4 class="headline">Trade In</h4>
+            <h5 class="subhead" role="presentation">Get $200-$650 in credit when<br> you trade in iPhone 11 or higher.</h5>
+            <div class="cta-links">
+                <a href="" target="_blank">Learn more ></a>
+                <a href="/us/shop/goto/buy_iphone/iphone_15" target="_blank">Buy ></a>
+			</div>
+            <img src="./assets/iphone-trade-in.jpg" class="product-images">
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+<section class="gallery">
+    <div class="carousel-container">
+    <div class="carousel">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/tPJwMGtsAr_psAVlyf2Rzg/1250x703.jpg" alt="Image 1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/1250x703.jpg" alt="Image 2">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/mZsXfk4apSIl3Q5QZqztiQ/1250x703.jpg" alt="Image 3">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/FVXovQ_qyfe9iwKjx4dRxA/1250x703.jpg" alt="Image 4">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/1250x703.jpg" alt="Image 5">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/-RJ9s2YmRAo0GqNUf3GNlg/1250x703.jpg" alt="Image 6">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/q8QlFpnNct0G9kpRmyMyNw/1250x703.jpg" alt="Image 7">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/zI2CDCT1wdz22rTE-yIAww/1250x703.jpg" alt="Image 8">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/9ewxNiQdC032DQcorTcsvA/1250x703.jpg" alt="Image 9">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/R_l1v_QVLik6NRU2FL9yrw/1250x703.jpg" alt="Image 10">
+        <!-- Add more images as needed -->
+    </div>
+     <div class="carousel-controls"></div>
+</div>
+
+</section>
+
+<!-- footer -->
+<footer class="apple-footer">
+     NOTE: THIS IS A PAGE INSPIRED BY APPLE.COM'S LAYOUT. I DO NOT OWN ANY OF THE IMAGES IN THE SITE. THE CREDITS GO TO APPLE.<br><br>
+        <div class="footer-content">
+            
+            <div class="footer-section">
+                <h4>Shop and Learn</h4>
+                <ul>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li>Apple Music</li>
+                    <li>Apple TV+</li>
+                    <li>Apple Arcade</li>
+                    <li>iCloud</li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Account</h4>
+                <ul>
+                    <li>Manage Your Apple ID</li>
+                    <li>Apple Store Account</li>
+                    <li>iCloud.com</li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Apple Store</h4>
+                <ul>
+                    <li>Find a Store</li>
+                    <li>Genius Bar</li>
+                    <li>Today at Apple</li>
+                    <li>Apple Camp</li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <!-- Add more sections as needed -->
+        </div>
+    </footer>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
